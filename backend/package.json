@@ -1,0 +1,22 @@
+{
+  "name": "ai-knowledge-inbox-backend",
+  "version": "1.0.0",
+  "description": "AI Knowledge Inbox - Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.9.0",
+    "better-sqlite3": "^11.6.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}

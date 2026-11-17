@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# SQLite database (runtime data, not source)
+backend/data/
+
+# Environment secrets
+backend/.env
+
+# Frontend build output
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
